@@ -62,7 +62,7 @@ a.theme-btn {
 }
 
 .single-blog:hover a {
-    color: #fab702;
+    color: #0770e8;
 }
 
 .main-menu nav ul li a {
@@ -92,12 +92,12 @@ a.theme-btn,
 .hire-area,
 .social-media ul li.active,
 .submit.theme-btn:hover {
-    background: #fab702;
+    background: #0770e8;
 }
 
 a.theme-btn {
     border-width: 2px;
-    border: 1px solid #F9B72D;
+    border: 1px solid #0770e8;
     position: relative;
     margin: 0;
     display: inline-block;
@@ -262,7 +262,7 @@ a.theme-btn:hover:after {
 }
 
 .slicknav_icon-bar {
-    background: #FAB702 !important;
+    background: #0770e8 !important;
 }
 
 .slicknav_nav {
@@ -363,7 +363,7 @@ a.theme-btn:hover:after {
 }
 
 .portfolio-content h1 span {
-    color: #fab702;
+    color: #0770e8;
 }
 
 .portfolio-content>h4 {
@@ -380,7 +380,7 @@ a.theme-btn:hover:after {
 }
 
 .portfolio-content a span {
-    color: #FAB702;
+    color: #0770e8;
 }
 
 .video {
@@ -398,7 +398,7 @@ a.theme-btn:hover:after {
 }
 
 .play-btn {
-    border: 1px solid #FAB702;
+    border: 1px solid #0770e8;
     border-radius: 50%;
     width: 50px;
     height: 50px;
@@ -658,7 +658,7 @@ section.about-area {
 }
 
 .work-experience h6 {
-    color: #f9b72d;
+    color: #0770e8;
 }
 
 .work-experience h4 {
@@ -686,15 +686,15 @@ section.about-area {
 }
 
 .portfolio-area li:hover {
-    color: #fab702;
+    color: #0770e8;
 }
 
 .portfolio-area li.active-btn {
-    color: #fab702;
+    color: #0770e8;
 }
 
 .port-img span {
-    color: #FAB702;
+    color: #0770e8;
     font-weight: 700;
     left: 0%;
     opacity: 0;
@@ -795,7 +795,7 @@ section.about-area {
 }
 
 .client .owl-nav button:hover {
-    color: #F9B72D
+    color: #0770e8;
 }
 
 .client .owl-next {
@@ -840,7 +840,7 @@ section.about-area {
 }
 
 .single-blog:hover .comment-like a.theme-btn {
-    background: #feb42c;
+    background: #0770e8;
     color: #ffffff;
     margin-left: 5px;
     opacity: 1;
@@ -877,7 +877,7 @@ section.about-area {
 }
 
 .more-blog a {
-    color: #fab702;
+    color: #0770e8;
     display: inline-block;
     margin-top: 10px;
     opacity: 0.6;
@@ -973,8 +973,8 @@ section.about-area {
 }
 
 .contact-social ul li a:hover {
-    border: 1px solid #FAB702;
-    color: #FAB702;
+    border: 1px solid #0770e8;
+    color: #0770e8;
 }
 
 /*============== 1.8 Contact Us Area End =======*/
@@ -1119,7 +1119,7 @@ footer img {
     left: 0;
     position: absolute;
     top: 14px;
-    color: #F9B72D
+    color: #0770e8;
 }
 
 .read-more h4 {
@@ -1263,7 +1263,7 @@ input:focus {
 }
 
 .submit:hover {
-    color: #FAB702;
+    color: #0770e8;
 }
 
 .right-sidebar.subscribe h2 {
@@ -1297,7 +1297,7 @@ input:focus {
 }
 
 .heading-content a {
-    color: #feb42c
+    color: #0770e8;
 }
 
 .heading-content a:hover {
@@ -1306,7 +1306,7 @@ input:focus {
 
 .heading-content span {
     margin: 0 15px;
-    color: #feb42c
+    color: #0770e8;
 }
 
 .blog-heading-content h4 {
@@ -1351,7 +1351,7 @@ input:focus {
 }
 
 .blog-quote p::after {
-    color: #feb42c;
+    color: #0770e8;
     content: "\f10d";
     font-family: FontAwesome;
     font-size: 50px;
@@ -1374,7 +1374,7 @@ input:focus {
 }
 
 .next-prev-post h4+a {
-    color: #FAB702;
+    color: #0770e8;
 }
 
 .next-prev-post h4+a:hover {
