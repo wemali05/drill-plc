@@ -54,7 +54,7 @@ header {
 .slicknav_nav a:hover,
 .video,
 .social-media ul li:hover a,
-.work-item h6 + h6,
+.work-item h6+h6,
 #mesonary-nav li:hover,
 #mesonary-nav li.control.active,
 a.theme-btn {
@@ -366,7 +366,7 @@ a.theme-btn:hover:after {
     color: #fab702;
 }
 
-.portfolio-content > h4 {
+.portfolio-content>h4 {
     color: #929292;
     font-size: 20px;
     font-weight: 300;
@@ -478,10 +478,11 @@ section.about-area {
 .about-area {
     position: relative;
     z-index: 1;
+    overflow: hidden;
 }
 
 .about-area::after {
-    background: url(../image/about/about-bg.png);
+    background: linear-gradient(to right bottom, rgba(26, 30, 37, 0.85), rgba(250, 180, 2, 0.85)), url(../image/portfolio/driller-2.jpeg);
     background-position: left;
     background-repeat: no-repeat;
     width: 45%;
@@ -652,7 +653,7 @@ section.about-area {
     text-transform: uppercase;
 }
 
-.work-item h6 + h6 {
+.work-item h6+h6 {
     background: #333943 none repeat scroll 0 0;
 }
 
@@ -762,7 +763,7 @@ section.about-area {
     margin: 30px 0 10px;
 }
 
-.client-content > h6 {
+.client-content>h6 {
     color: #8b919b;
     font-weight: 300;
 }
@@ -845,7 +846,7 @@ section.about-area {
     opacity: 1;
 }
 
-.single-blog > a {
+.single-blog>a {
     color: #ffffff;
     display: inline-block;
     font-size: 24px;
@@ -854,7 +855,7 @@ section.about-area {
     line-height: 30px
 }
 
-.single-blog > p {
+.single-blog>p {
     font-size: 14px;
     margin: 30px 0 20px;
 }
@@ -904,13 +905,13 @@ section.about-area {
     justify-content: space-between
 }
 
-.hire-content > h3 {
+.hire-content>h3 {
     font-size: 36px;
     font-weight: 200;
     margin-bottom: 10px;
 }
 
-.hire-content > h2 {
+.hire-content>h2 {
     font-size: 40px;
     font-weight: 600;
     margin: 0;
@@ -956,7 +957,7 @@ section.about-area {
     margin-top: 30px;
 }
 
-.contact-social > ul {
+.contact-social>ul {
     display: inline-flex;
 }
 
@@ -1071,7 +1072,7 @@ footer img {
     margin: 0 30px;
 }
 
-.design-heading > p {
+.design-heading>p {
     line-height: 31px;
     margin: 40px 0 20px;
 }
@@ -1188,7 +1189,7 @@ a.popular-post:last-child {
     margin-bottom: 30px;
 }
 
-.popular-post-content > a {
+.popular-post-content>a {
     color: #66b9f1;
     display: inline-block;
     font-size: 20px;
@@ -1223,7 +1224,7 @@ a.popular-post:last-child {
     font-size: 26px;
 }
 
-.post-comment > p {
+.post-comment>p {
     border-bottom: 1px solid #B7B7B7;
     padding-bottom: 15px;
 }
@@ -1274,12 +1275,12 @@ input:focus {
 /*=============== 3.1 Blog-Details Page Area =============== */
 
 .blog-details-left h2,
-.blog-heading-content > h4,
-.blog-read-more > h4,
+.blog-heading-content>h4,
+.blog-read-more>h4,
 .post-item h4 a,
-.related-post-content > h4,
+.related-post-content>h4,
 .post-item h4,
-.related-post-single > h6 {
+.related-post-single>h6 {
     color: #11131b;
 }
 
@@ -1317,7 +1318,7 @@ input:focus {
     margin: 40px 0;
 }
 
-.blog-paragraph > ul {
+.blog-paragraph>ul {
     margin-bottom: 10px;
 }
 
@@ -1327,7 +1328,7 @@ input:focus {
     padding: 6px 15px;
 }
 
-.blog-paragraph > p {
+.blog-paragraph>p {
     margin-bottom: 10px;
 }
 
@@ -1372,11 +1373,11 @@ input:focus {
     justify-content: space-between;
 }
 
-.next-prev-post h4 + a {
+.next-prev-post h4+a {
     color: #FAB702;
 }
 
-.next-prev-post h4 + a:hover {
+.next-prev-post h4+a:hover {
     color: #515a6a;
 }
 
@@ -1403,12 +1404,12 @@ input:focus {
     color: #515a6a;
 }
 
-.post-social > span {
+.post-social>span {
     font-size: 16px;
     font-weight: 600;
 }
 
-.post-plps > ul li {
+.post-plps>ul li {
     display: inline-block;
     margin-right: 5px;
 }
@@ -1459,13 +1460,13 @@ input:focus {
     margin-bottom: 0;
 }
 
-.post-card > h5 {
+.post-card>h5 {
     font-size: 15px;
     font-weight: 300;
     text-transform: uppercase;
 }
 
-.related-post-single > h6 {
+.related-post-single>h6 {
     margin-bottom: 5px;
 }
 
