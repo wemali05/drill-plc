@@ -482,7 +482,7 @@ section.about-area {
 }
 
 .about-area::after {
-    background: linear-gradient(to right bottom, rgba(26, 30, 37, 0.476), rgba(250, 180, 2, 0.7)), url(../image/portfolio/driller-2.jpeg);
+    background: linear-gradient(to right bottom, rgba(26, 30, 37, 0.476), rgba(33, 5, 245, 0.912)), url(../image/portfolio/water.jpg);
     background-position: left;
     background-repeat: no-repeat;
     width: 45%;
