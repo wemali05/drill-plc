@@ -778,6 +778,11 @@ section.about-area {
     z-index: 9999;
 }
 
+.zoom img:hover {
+    filter: blur(3px) brightness(80%);
+}
+
+
 .client .owl-stage-outer {
     overflow: hidden;
     padding-bottom: 60px !important;
