@@ -782,9 +782,7 @@ section.about-area {
     z-index: 9999;
 }
 
-.zoom img:hover {
-    filter: blur(3px) brightness(80%);
-}
+
 
 
 .client .owl-stage-outer {
@@ -1076,6 +1074,57 @@ footer img {
     overflow: hidden;
     min-width: 327px;
 }
+
+.zoom {
+    position: relative;
+}
+
+.zoom-img {
+    height: 20rem;
+    transform: translateY(-5rem) scale(1.5);
+    /**/
+
+    backface-visibility: hidden;
+    transition: all .5s;
+}
+
+.zoom-caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 20%);
+    text-transform: uppercase;
+    font-size: .8rem;
+    font-weight: 400;
+    text-align: center;
+    opacity: 0;
+    transition: all .5s;
+    backface-visibility: hidden;
+
+
+}
+
+.zoom-caption h1 {
+    color: #fff;
+}
+
+.zoom-caption p {
+    color: blue;
+}
+
+.zoom:hover .zoom-caption {
+    opacity: 1;
+    transform: translate(-50%, -50%);
+}
+
+.zoom:hover .zoom-img {
+    /* transform: translateX(-4rem) scale(1); */
+    filter: blur(3px) brightness(80%);
+}
+
+/* .zoom img:hover {
+    filter: blur(3px) brightness(80%);
+} */
 
 .design-heading {
     margin: 0 30px;
