@@ -522,6 +522,8 @@
     .profile img {
         border: 5px solid #f6b502;
         border-radius: 50%;
+        width: 100%;
+        height: 300px;
     }
 
     .video {
