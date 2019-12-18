@@ -313,7 +313,8 @@ a.theme-btn:hover:after {
 
 .home::after,
 .page::after {
-    background-image: url("../image/home/line-shape.png");
+    background-image: linear-gradient(to bottom, rgb(7, 112, 232, 0.5), rgb(26, 30, 37, 0.2)),
+        url(../img/hero-small.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     content: "";
@@ -339,6 +340,7 @@ a.theme-btn:hover:after {
 
 .profile img {
     width: 100%;
+    height: 888px;
 }
 
 .profile::after {

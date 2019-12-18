@@ -1,5 +1,5 @@
 @media screen and (min-width: 1200px) and (max-width: 1365px) {
-    .portfolio-content > h1 {
+    .portfolio-content>h1 {
         font-size: 35px;
     }
 }
@@ -109,6 +109,11 @@
         width: 560px;
     }
 
+    .profile img {
+        height: 100%;
+        width: 100%;
+    }
+
     .profile::after {
         display: none;
     }
@@ -171,7 +176,7 @@
 
 /*		Tablet Layout: 768px	*/
 @media screen and (min-width: 768px) and (max-width: 991px) {
-    
+
     header {
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.12), 0 2px 4px 0 rgba(0, 0, 0, 0.08);
         background: #191919;
@@ -290,7 +295,7 @@
         width: 100%;
     }
 
-    .heading-content > h2 {
+    .heading-content>h2 {
         border: medium none;
         float: inherit;
         font-size: 30px;
@@ -328,7 +333,7 @@
         margin: 60px 0 0;
     }
 
-    .about-content > h3 {
+    .about-content>h3 {
         font-size: 28px;
         line-height: 42px;
         margin-bottom: 10px;
@@ -409,17 +414,17 @@
 /*		Mobile Layout: 320px.    */
 
 @media screen and (max-width: 767px) {
-    
+
     header {
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.12), 0 2px 4px 0 rgba(0, 0, 0, 0.08);
         background: #191919;
     }
 
-    .section-heading > h2 {
+    .section-heading>h2 {
         font-size: 25px;
     }
 
-    .section-heading > p {
+    .section-heading>p {
         margin: 20px 0 50px;
     }
 
@@ -555,7 +560,7 @@
         margin: -10px 0 0;
     }
 
-    .single-blog > a {
+    .single-blog>a {
         font-size: 23px;
         line-height: 33px;
     }
@@ -649,9 +654,9 @@
     .single-work-item {
         text-align: center;
     }
-    
-    /* === Client Area ==== */ 
-    
+
+    /* === Client Area ==== */
+
     .client-area {
         padding-bottom: 66px;
     }
@@ -660,11 +665,11 @@
         padding: 40px 30px 108px;
     }
 
-    .hire-content > h3 {
+    .hire-content>h3 {
         font-size: 21px;
     }
 
-    .hire-content > h2 {
+    .hire-content>h2 {
         font-size: 21px;
     }
 
@@ -719,7 +724,7 @@
         margin: 0 10px;
     }
 
-    .design-heading > p {
+    .design-heading>p {
         line-height: 25px;
         margin: 15px 0 20px;
     }
@@ -746,7 +751,7 @@
     }
 
     /*  ====== Blog-Details Page =======  */
-    
+
     .page {
         height: 370px;
         padding: 30px 0 0;
@@ -764,11 +769,11 @@
         margin-right: 15px;
     }
 
-    .heading-content > p {
+    .heading-content>p {
         font-size: 12px;
     }
 
-    .blog-details-left > h2 {
+    .blog-details-left>h2 {
         font-size: 25px;
     }
 
@@ -797,7 +802,7 @@
         font-size: 17px;
     }
 
-    .post-plps > ul li {
+    .post-plps>ul li {
         margin-right: 0;
     }
 
@@ -845,11 +850,11 @@
         font-size: 15px;
     }
 
-    .hire-content > h3 {
+    .hire-content>h3 {
         font-size: 25px;
     }
 
-    .hire-content > h2 {
+    .hire-content>h2 {
         font-size: 25px;
     }
 
