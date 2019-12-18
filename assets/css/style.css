@@ -330,7 +330,7 @@ a.theme-btn:hover:after {
 }
 
 .profile {
-    clip-path: circle(300px);
+    /* clip-path: circle(300px); */
     position: absolute;
     right: 0;
     top: 0;
@@ -342,8 +342,8 @@ a.theme-btn:hover:after {
 }
 
 .profile::after {
-
-    background-image: linear-gradient(to right bottom, transparent 50%, rgba(23, 9, 129, 0.512) 80%), url("");
+    background-image: url("../image/home/profile-bg.png");
+    /* background-image: linear-gradient(to right bottom, transparent 50%, rgba(23, 9, 129, 0.512) 80%), url(""); */
     background-repeat: no-repeat;
     background-size: cover;
     content: "";
@@ -779,6 +779,11 @@ section.about-area {
     width: 79px !important;
     z-index: 9999;
 }
+
+.zoom img:hover {
+    filter: blur(3px) brightness(80%);
+}
+
 
 .client .owl-stage-outer {
     overflow: hidden;
