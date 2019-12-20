@@ -1083,7 +1083,7 @@ footer img {
     height: 20rem;
     transform: translateY(-5rem) scale(1.5);
     /**/
-
+    object-fit: cover;
     backface-visibility: hidden;
     transition: all .5s;
 }
