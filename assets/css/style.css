@@ -95,6 +95,12 @@ a.theme-btn,
     background: #0770e8;
 }
 
+.img-fluid {
+    width: 200px;
+    height: 400px;
+    object-fit: cover;
+}
+
 a.theme-btn {
     border-width: 2px;
     border: 1px solid #0770e8;
