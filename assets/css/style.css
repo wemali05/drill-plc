@@ -1081,12 +1081,23 @@ footer img {
     min-width: 327px;
 }
 
+.grad {
+    background-image: linear-gradient(to right bottom, rgb(232, 137, 57, 0.5) 30%, rgb(7, 112, 232, 0.5)70%);
+    /* background-image: linear-gradient(to bottom, rgb(7, 112, 232, 0.5), rgb(26, 30, 37, 0.2)); */
+    /* background-color: #0770e8; */
+    height: 10rem;
+    position: relative;
+    object-fit: cover;
+    backface-visibility: hidden;
+    transition: all .5s;
+}
+
 .zoom {
     position: relative;
 }
 
 .zoom-img {
-    height: 20rem;
+    height: 10rem;
     transform: translateY(-5rem) scale(1.5);
     /**/
     object-fit: cover;
@@ -1100,8 +1111,8 @@ footer img {
     left: 50%;
     transform: translate(-50%, 20%);
     text-transform: uppercase;
-    font-size: .8rem;
-    font-weight: 400;
+    /* font-size: .5rem; */
+    /* font-weight: 200; */
     text-align: center;
     opacity: 0;
     transition: all .5s;
@@ -1346,6 +1357,12 @@ input:focus {
 .post-item h4,
 .related-post-single>h6 {
     color: #11131b;
+}
+
+.owl-stage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .heading-content {
